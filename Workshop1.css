@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid; */
+}
+
+header {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  color: #172033;
+  background: #cbced2;
+  border: 1px solid #0561e2;
+}
+
+.brand {
+  font-size: 20px;
+  color: #cb6e2b;
+}
+
+.nav {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #e128bf;
+}
+
+.cta {
+  padding: 10px 30px;
+  color: #ffffff;
+  background: #cb6f48;
+  border-radius: 10px;
+}
